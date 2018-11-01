@@ -1,0 +1,4 @@
+train (t-hhsdf1o2k1jfmd1azbu6us7xq) {
+  utterance ("[g:CreateTransfer] Transfer {[g:TransferAmount] ($)[v:viv.money.PrefixSymbol:$](10)[v:viv.money.CurrencyValue]}")
+  plan (fY6xbsIwFEUvbWhp6cQAqsTI2gz9A4rUqQMSiBU55kWykvhFLzYif98kBJS0CHuxz/G9z3jD9GiO+wPrIoyUTcKtKFvEJJj3+UpIObra9779Fs6WWrO3DrM/hXwR89uTllljJ5UNM7ZUhisvQlaXTVXLvrxJD1cx/f94W+bUDVz4TqWemtmt+GFOfN6Lfd6zC822cKKMdR+5cE7iDBXdL6yFYnPalFnEKcYY4AGPCDDEE54xwgteK4qK1/vMa1PzAc4raE/de1Bl67bgFw==)
+}

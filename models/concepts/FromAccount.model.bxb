@@ -1,0 +1,3 @@
+structure (FromAccount) {
+  role-of (Account)
+}

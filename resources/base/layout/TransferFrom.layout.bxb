@@ -1,0 +1,22 @@
+layout-macro-def (transfer-from) {
+  params {
+    param (transfer) {
+      type (Transfer)
+      min (Required) max (One)
+    }
+  }
+  content {
+    section {
+      title {
+        template-macro (SendFromLabel)
+      }
+      content {
+        single-line {
+          text {
+            value ("#{value(transfer.fromAccount.accountType)}")
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+train (t-r32ateompxkmjscf5irqez9br) {
+  utterance ("[g:CreateTransfer] Transfer money to my {[g:ToAccount] (savings)[v:AccountType:Savings]} account")
+  plan (Y+BgECvLLItPyU8u1ktKzMvWCylKzCtOSy1ikEEVdy5KTSxJhctKosq6FeXnOiYn55fmlTCIoxmYD5MQRZWACaMblZmXgkMKKhxSWZCK7jyYwxxzwRrZGRgZmBiYGVgYWBnYgDwGIJ8RygexQIAFSjMAxUFybCASAA==)
+}

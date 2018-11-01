@@ -1,0 +1,10 @@
+action (FindAccount) {
+  type (Search)
+  collect {
+    input (accountType) {
+      type (AccountType)
+      min (Optional)
+    }
+  }
+  output (Account)
+}

@@ -1,0 +1,30 @@
+result-view {
+  match {
+    Transfer (transfer)
+  }
+
+  render {
+    layout {
+      layout-macro (transfer-from) {
+        param (transfer) {
+          expression (transfer)
+        }
+      }
+       layout-macro (transfer-to) {
+        param (transfer) {
+          expression (transfer)
+        }
+      }
+      layout-macro (amount) {
+        param (transfer) {
+          expression (transfer)
+        }
+      }
+      layout-macro (memo) {
+        param (transfer) {
+          expression (transfer)
+        }
+      }
+    }
+  }
+}

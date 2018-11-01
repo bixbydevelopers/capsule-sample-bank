@@ -1,0 +1,11 @@
+structure (TransferReceipt) {
+  property (transfer) {
+    type (Transfer)
+    min (Required)
+  }
+  
+  property(transferTime) {
+    type(time.DateTime)
+    min (Required)
+  }
+}

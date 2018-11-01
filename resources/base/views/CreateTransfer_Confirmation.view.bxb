@@ -1,0 +1,103 @@
+confirmation-view {
+  match: common.Confirmation {
+    confirming: CreateTransfer (this)
+  }
+  message {
+    template ("Click next when ready to confirm transfer details.")
+  }
+  confirm-options {
+    label ("Next")
+    // Confirming with a `value: Confirmation(true)` doesn't work without on-confirm. DO NOT remove confirm-options.on-confirm.
+    on-confirm {
+      if (false) {
+        halt {
+          dialog ("")
+        }
+      }
+    }
+  }
+  mode (Transactional)
+  
+  render {
+    layout {
+      section {
+        content {
+          input-cell {
+            label {
+              template-macro (SendFromLabel)
+            }
+            value {
+              template ("#{value(this.fromAccount.accountType)}")
+            }
+            on-click {
+              intent {
+                subplan {
+                  goal {FromAccount } 
+                  subplan {
+                    goal: FindAccount
+                    value-set { AccountType {}}
+                  }
+                }
+                goal { @conversational CreateTransfer }
+              }
+            }
+          }
+
+          input-cell {
+            label {
+              template-macro (SendToLabel)
+            }
+            value {
+              template ("#{value(this.toAccount.accountType)}")
+            }
+            on-click {
+              intent {
+                subplan {
+                  goal { ToAccount } 
+                  subplan {
+                    goal: FindAccount
+                    value-set { AccountType {}}
+                  }
+                }
+                goal { @conversational CreateTransfer }
+              } 
+            }
+          }
+          input-cell {
+            label {
+              template-macro (AmountLabel)
+            }
+            value {
+              template ("#{value(this.transferAmount)}")
+            }
+            on-click {
+              intent {
+                value-set { @prompt-behavior(AlwaysElicitation) TransferAmount {$expr(this.transferAmount)} }
+                goal { @conversational CreateTransfer }
+              }
+            }
+          }
+
+          input-cell {
+            label {
+              template-macro (MemoLabel)
+            }
+            value {
+              if (exists(this.note)) {
+                template ("[#{value(this.note)}]") 
+              } else {
+                template-macro (NoMemoLabel)
+              }
+            }
+            on-click {
+              intent {
+                value-set { @prompt-behavior(AlwaysElicitation) Note  {$expr(this.note)} }
+                goal { @conversational CreateTransfer }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

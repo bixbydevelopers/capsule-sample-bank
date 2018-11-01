@@ -1,0 +1,4 @@
+train (t-qdj9fg5mka0vrvnwypwpr7cry) {
+  utterance ("[g:CreateTransfer] Transfer {[g:TransferAmount] ($)[v:viv.money.PrefixSymbol:$](45)[v:viv.money.CurrencyValue]} to my {[g:ToAccount] (savings)[v:AccountType:Savings]} account from my {[g:FromAccount] (checking)[v:AccountType:Checking]} account for (the trip next year)[v:Note]")
+  plan (tVBbS8MwGD11N3Xq5sQNYY++2gf/wRzsSWTg8FWyNIOwNl9Jk2H/vUnXlnVT3ySQy7l85xDcYbyTu8+IeBaumdqGK81UthEa0yY+14IZUbMPTXahKZlxTlYZ3DepCj52SBX9QpXwKk8FRk3qjYzA5Kgx/Uvy9Od/mSWF0fcKE1IiD+dWa6F4XvQqsRcr46gmxqfiImJyin+w2O6zS+KVaGvThu35L/aRk8qMZlKZp1RTKrSRIjussNRiI7/e82RNMUYIcIYW2uigix7OcYFL9HGFa9xggCFunQa1KnBrrwpKldd5VeBU7WLHwa06K9z7um5Wx03xOQM3veXePfS/AQ==)
+}

@@ -1,0 +1,8 @@
+train (t-bdlgqcz774ilyfl9ms4ws287g) {
+  utterance ("[g:CreateTransfer] Transfer {[g:TransferAmount] ($)[v:viv.money.PrefixSymbol:$](10)[v:viv.money.CurrencyValue]} from my {[g:FromAccount] (checking)[v:AccountType:Checking]} account to my {[g:ToAccount] (savings)[v:AccountType:Savings]} account for (my college fund)[v:Note]")
+  plan (tVBbS8MwGD11N3Xq5sQNYY++2gf/wRzsSWTg8FWyNIOwNl9Jk2H/vUnXlnVT3ySQy7l85xDcYbyTu8+IeBaumdqGK81UthEa0yY+14IZUbMPTXahKZlxTlYZ3DepCj52SBX9QpXwKk8FRk3qjYzA5Kgx/Uvy9Od/mSWF0fcKE1IiD+dWa6F4XvQqsRcr46gmxqfiImJyin+w2O6zS+KVaGvThu35L/aRk8qMZlKZp1RTKrSRIjussNRiI7/e82RNMUYIcIYW2uigix7OcYFL9HGFa9xggCFunQa1KnBrrwpKldd5VeBU7WLHwa06K9z7um5Wx03xOQM3veXePfS/AQ==)
+}
+train (t-bykpcuwfadi8vyf8ti737xpox) {
+  utterance ("[g:CreateTransfer] Transfer {[g:TransferAmount] ($)[v:viv.money.PrefixSymbol:$](1000)[v:viv.money.CurrencyValue]} from my {[g:FromAccount] (checking)[v:AccountType:Checking]} account to my {[g:ToAccount] (savings)[v:AccountType:Savings]} account")
+  plan (tZAxT8MwFIQvbSlQoEAlipA6spKBf1AqdWJAomJFruNKVhO/6MWuyL/HcUNEUmBjseX77nzPxgTTnd69JySLeC3MNl6xMMVGMWZtfcFKWNXQuzZdMmVzKckZi5s2+pK7CW2SX1Atr8pc4bYzHf1Ly+znP5hnITjxNM7IqDJeOGZlZBnmqrUnp9OkAdNDc/OQjv4mUrfvrsEz0dblrdjjX/RekiksC23sQ86UK7ZaFd9HeGG10R+vZbamFNeI0EMfAxxhiGOc4BQjnOEcFxjjElfegcYT1Z6o9lSuyhN5zyCsh/t+RUj1QkvVMPb39v15iNEn)
+}

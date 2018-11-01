@@ -1,0 +1,3 @@
+structure (ToAccount) {
+  role-of (Account)
+}

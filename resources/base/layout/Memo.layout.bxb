@@ -1,0 +1,30 @@
+layout-macro-def (memo) {
+  params {
+    param (transfer) {
+      type (Transfer)
+      min (Required) max (One)
+    }
+  }
+  content {
+    section {
+      title {
+        template-macro (MemoLabel)
+      }
+      content {
+        single-line {
+          if (exists (transfer.note)) {
+            text {
+              value ("[#{value(transfer.note)}]")
+            }
+          } else {
+            text {
+              value {
+                template-macro (NoMemoLabel)
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

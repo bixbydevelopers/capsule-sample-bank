@@ -1,0 +1,4 @@
+train (t-ov2maw42u6i68e4yjg5wy2vud) {
+  utterance ([g:Transfer] I need to transfer money to my bank account)
+  plan (Y2BkECvLLItPyU8u1ktKzMvWCylKzCtOSy1iAAFGEAEA)
+}

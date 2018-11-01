@@ -1,0 +1,30 @@
+endpoints {
+  authorization {
+    oauth {
+      authorize-endpoint ("https://bank-oauth.appspot.com/dialog/authorize")
+      client-id ("xyz123")
+      client-secret ("ssh-password")
+      grant-type ("authorization_code")
+      provider ("Mock Bank")
+      scope ("transfer_money")
+      token-endpoint ("https://bank-oauth.appspot.com/oauth/token")
+    }
+  }
+  
+  action-endpoints {
+    action-endpoint (FindAccount) {
+      accepted-inputs (accountType)
+      local-endpoint ("FindAccount.js")
+    }
+
+    action-endpoint (CreateTransfer) {
+      accepted-inputs (fromAccount, toAccount, transferAmount, note)
+      local-endpoint ("CreateTransfer.js")
+    }
+
+    action-endpoint (CommitTransfer) {
+      accepted-inputs (transfer)
+      local-endpoint ("CommitTransfer.js")
+    }
+  }
+}

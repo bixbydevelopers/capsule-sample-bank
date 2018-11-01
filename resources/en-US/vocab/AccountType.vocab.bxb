@@ -1,0 +1,11 @@
+vocab (AccountType) {
+  "Checking" {
+    "checking"
+  }
+  "Savings" {
+    "savings"
+  }
+  "MoneyMarket" {
+    "money market"
+  }
+}

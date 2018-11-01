@@ -1,0 +1,21 @@
+transaction-support {
+  match {
+    Transfer (this)
+  }
+  
+  status-bar {
+
+    label {
+      template ("Confirm transfer")
+    }
+
+    on-user-click {
+      intent {
+        goal {
+          CommitTransfer
+        } 
+      }
+    }
+
+  }
+}

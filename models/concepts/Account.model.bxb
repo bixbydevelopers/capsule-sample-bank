@@ -1,0 +1,7 @@
+structure (Account) {
+  description(An account.)
+  property (accountType) {
+    type (AccountType)
+    min(Required)
+  }
+}

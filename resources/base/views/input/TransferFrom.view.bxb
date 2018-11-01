@@ -1,0 +1,15 @@
+input-view {
+  match : FromAccount(this)
+  message {
+    template-macro (WhichFrom)
+  }
+  render {
+    selection-of (this) {
+      where-each (account) {
+        layout-match (account) {
+          mode (Summary)
+        }
+      }
+    }
+  }
+}

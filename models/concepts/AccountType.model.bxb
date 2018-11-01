@@ -1,0 +1,7 @@
+enum (AccountType) {
+  description (The type of an account.)
+  symbol (Checking)
+  symbol (Savings)
+  // Find another type of account if people don't normally transfer from money market...
+  symbol (MoneyMarket)
+}

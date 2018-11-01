@@ -1,0 +1,11 @@
+action (CommitTransfer) {
+  type (Commit)
+  collect {
+    input (transfer) {
+      type (Transfer)
+      min (Required)
+    }
+  }
+  
+  output (TransferReceipt)
+}

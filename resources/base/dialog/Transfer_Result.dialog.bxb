@@ -1,0 +1,6 @@
+dialog (Result) {
+  match {
+    Transfer
+  }
+  template-macro(ConfirmDetails)
+}

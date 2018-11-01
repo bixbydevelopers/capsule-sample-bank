@@ -1,0 +1,12 @@
+train (t-iqgmz5j9t8tsawvhrxvbzqb0r) {
+  utterance ("[g:CreateTransfer:continue] Transfer to my {[g:ToAccount] (Money Market)[v:AccountType:MoneyMarket]}   account")
+  plan (Y+BgECvLLItPyU8u1ktKzMvWCylKzCtOSy1ikEEVdy5KTSxJhctKosq6FeXnOiYn55fmlTCIoxmYD5MQRZWACaMblZmXgkMKKhxSWZCK7jyYwxxzwRrZGRgZmBiYGVgYWBnYgDwGIJ8RygexQIAFSjMAxUFybCASAA==)
+}
+train (t-iybaivzc35i4vbxdjul6h37oq) {
+  utterance ([g:CreateTransfer] I need to make a money transfer)
+  plan (Y2BlECvLLItPyU8u1ktKzMvWCylKzCtOSy1ikEEVdy5KTSxJhctKosq6FeXnOiYn55fmlTCIoxmYD5OQwW6TYy5YloWBkYGJgRlIMwBZEAgDYDYA)
+}
+train (t-izk4fpy0ay6xxix52l9rialsn) {
+  utterance ("[g:CreateTransfer] Make a transfer of {[g:TransferAmount] ($)[v:viv.money.PrefixSymbol:$](20)[v:viv.money.CurrencyValue]}")
+  plan (fY6xbsIwFEUvbWhp6cQAqsTI2gz9A4rUqQMSiBU55kWykvhFLzYif98kBJS0CHuxz/G9z3jD9GiO+wPrIoyUTcKtKFvEJJj3+UpIObra9779Fs6WWrO3DrM/hXwR89uTllljJ5UNM7ZUhisvQlaXTVXLvrxJD1cx/f94W+bUDVz4TqWemtmt+GFOfN6Lfd6zC822cKKMdR+5cE7iDBXdL6yFYnPalFnEKcYY4AGPCDDEE54xwgteK4qK1/vMa1PzAc4raE/de1Bl67bgFw==)
+}

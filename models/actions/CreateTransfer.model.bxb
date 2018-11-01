@@ -1,0 +1,49 @@
+action (CreateTransfer) {
+  type (BeginTransaction)
+  collect {
+    // No validation is being done right now for the from/to accounts. They can be the same account (you could transfer from checking to checking).
+    input (fromAccount) {
+      type (FromAccount)
+      min (Required)
+      default-init {
+        // Use default-init to prompt for an account the user has.
+        intent {
+          goal { FindAccount }
+        }
+      }
+    }
+    input (toAccount) {
+      type (ToAccount)
+      min (Required)
+      default-init {
+        intent {
+          goal { FindAccount }
+        }
+      }
+    }
+    
+    input (transferAmount) {
+      type (TransferAmount)
+      min (Required)
+    }
+    
+    input (note) {
+      type (Note)
+      min (Optional)
+    }
+    
+  }
+  
+  // confirmed-by (core.Confirmation) {
+  //   mode (Transactional)
+  //   confirm-label {
+  //     template-macro (Next)
+  //   }
+  // }
+
+  confirm {
+    by (common.Confirmation)
+  }
+
+  output (Transfer)
+}

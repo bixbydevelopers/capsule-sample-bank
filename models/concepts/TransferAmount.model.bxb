@@ -1,0 +1,4 @@
+structure (TransferAmount) {
+  role-of (money.Currency)
+  description (The amount to transfer.)
+}
