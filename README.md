@@ -1,5 +1,5 @@
 <p align="Center">
-  <img src="https://github.com/rogerkibbe/bixby_github_header/blob/master/bixby_logo_github.png">
+  <img src="https://bixbydevelopers.com/dev/docs-assets/resources/dev-guide/bixby_logo_github-11221940070278028369.png">
   <br/>
   <h1 align="Center">Bixby One-Step Transactions Sample</h1>
 </p>
