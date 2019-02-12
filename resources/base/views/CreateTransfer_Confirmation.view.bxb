@@ -5,9 +5,8 @@ confirmation-view {
   message {
     template ("Click next when ready to confirm transfer details.")
   }
+  // Confirming with a `value: Confirmation(true)` doesn't work without this block. DO NOT remove confirm-options.
   confirm-options {
-    label ("Next")
-    // Confirming with a `value: Confirmation(true)` doesn't work without on-confirm. DO NOT remove confirm-options.on-confirm.
     on-confirm {
       if (false) {
         halt {
@@ -16,8 +15,7 @@ confirmation-view {
       }
     }
   }
-  mode (Transactional)
-  
+
   render {
     layout {
       section {

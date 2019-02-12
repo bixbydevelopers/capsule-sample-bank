@@ -1,6 +1,6 @@
 capsule {
   id (example.bank)
-  version (2.0.1) // Layout updates
+  version (2.0.2) // Updated OAuth to use authorization.bxb
   format(3)
   targets {
     target (bixby-mobile-en-US)
