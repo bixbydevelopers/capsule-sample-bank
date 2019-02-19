@@ -6,9 +6,7 @@ input-view {
   render {
     selection-of (this) {
       where-each (account) {
-        layout-match (account) {
-          mode (Summary)
-        }
+        //Uses the default layout for each 'account' in 'this'
       }
     }
   }
