@@ -5,7 +5,7 @@ endpoints {
       local-endpoint ("FindAccount.js")
       authorization (User)
     }
-
+    
     action-endpoint (CreateTransfer) {
       accepted-inputs (fromAccount, toAccount, transferAmount, note)
       local-endpoint ("CreateTransfer.js")
