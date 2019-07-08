@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    utterance (Transfer money)
+    utterance (Tranfer money to my savings account)
+    utterance (Tranfer $10)
+  }
+}
