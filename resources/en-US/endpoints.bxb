@@ -3,19 +3,25 @@ endpoints {
     action-endpoint (FindAccount) {
       accepted-inputs (accountType)
       local-endpoint ("FindAccount.js")
-      authorization (User)
+      authorization {
+        user
+      }
     }
     
     action-endpoint (CreateTransfer) {
       accepted-inputs (fromAccount, toAccount, transferAmount, note)
       local-endpoint ("CreateTransfer.js")
-      authorization (User)
+      authorization {
+        user
+      }
     }
 
     action-endpoint (CommitTransfer) {
       accepted-inputs (transfer)
       local-endpoint ("CommitTransfer.js")
-      authorization (User)
+      authorization {
+        user
+      }
     }
   }
 }

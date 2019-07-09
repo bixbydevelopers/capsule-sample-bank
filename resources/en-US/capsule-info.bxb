@@ -1,0 +1,13 @@
+capsule-info {
+  display-name (Bank Sample Capsule)
+  dispatch-name (Bank Sample Capsule)
+  developer-name (Bixby Sample Capsules)
+  icon-asset (/images/bixby-logo.png)
+  description ("A sample capsule to do a simple transaction for transfering money with a bank.")
+  website-url (https://bixbydevelopers.com/dev/docs/sample-capsules/samples)
+  search-keywords {
+    keyword (sample capsule)
+    keyword (bank transfer)
+    keyword (money transfer)
+  }
+}

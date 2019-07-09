@@ -1,9 +1,11 @@
+// See below link for instructions on configuring secrets befor running this capsule
+// https://bixbydevelopers.com/dev/docs/sample-capsules/walkthroughs/simple-transactional#configuring-this-capsule
 authorization {
   user {
     oauth2-authorization-code ("Mock Bank") {
       authorize-endpoint ("https://bank-oauth.appspot.com/dialog/authorize")
       client-id ("xyz123")
-      client-secret ("ssh-password")
+      client-secret-key ("ssh-password")
       scope ("transfer_money")
       token-endpoint ("https://bank-oauth.appspot.com/oauth/token")
     }
