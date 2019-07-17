@@ -1,11 +1,13 @@
 capsule {
   id (example.bank)
-  version (2.0.3) // Removed warnings
+  version (2.0.4) // Removed warnings
   format(3)
   runtime-flags {
     support-halt-effect-in-computed-inputs
     modern-prompt-rejection
     concepts-inherit-super-type-features
+    no-filtering-with-validation
+    modern-default-view-behavior
   }
   targets {
     target (bixby-mobile-en-US)
