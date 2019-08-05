@@ -1,6 +1,9 @@
 result-view {
   match {
-    Transfer (transfer)
+    Transfer (transfer) {
+      min (Required)
+      max (One)
+    }
   }
 
   render {
