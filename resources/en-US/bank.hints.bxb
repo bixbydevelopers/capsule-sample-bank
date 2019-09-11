@@ -1,7 +1,7 @@
 hints {
   uncategorized {
-    utterance (Transfer money)
-    utterance (Tranfer money to my savings account)
-    utterance (Tranfer $10)
+    hint (In Bank Sample Capsule, transfer money)
+    hint (In Bank Sample Capsule, transfer money to my savings account)
+    hint (Ask Bank Sample Capsule to transfer $10)
   }
 }
