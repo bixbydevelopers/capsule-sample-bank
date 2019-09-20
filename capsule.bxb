@@ -19,15 +19,15 @@ capsule {
     }
     import (viv.common) {
       as (common) 
-      version (3.32.8)
+      version (3.32.18)
     }
     import (viv.money) { 
       as (money) 
-      version (2.22.0)
+      version (2.22.3)
     }
     import (viv.time) { 
       as (time) 
-      version (2.88.23)
+      version-from (money)
     }
   }
 }
