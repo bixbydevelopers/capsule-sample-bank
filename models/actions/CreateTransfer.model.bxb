@@ -12,6 +12,7 @@ action (CreateTransfer) {
         }
       }
     }
+
     input (toAccount) {
       type (ToAccount)
       min (Required)
@@ -31,18 +32,6 @@ action (CreateTransfer) {
       type (Note)
       min (Optional)
     }
-    
-  }
-  
-  // confirmed-by (core.Confirmation) {
-  //   mode (Transactional)
-  //   confirm-label {
-  //     template-macro (Next)
-  //   }
-  // }
-
-  confirm {
-    by (common.Confirmation)
   }
 
   output (Transfer)

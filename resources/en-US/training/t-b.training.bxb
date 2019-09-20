@@ -1,8 +1,10 @@
 train (t-bdlgqcz774ilyfl9ms4ws287g) {
-  utterance ("[g:CreateTransfer] Transfer {[g:TransferAmount] ($)[v:viv.money.PrefixSymbol:$](10)[v:viv.money.CurrencyValue]} from my {[g:FromAccount] (checking)[v:AccountType:Checking]} account to my {[g:ToAccount] (savings)[v:AccountType:Savings]} account for (my college fund)[v:Note]")
-  plan (tVBbS8MwGD11N3Xq5sQNYY++2gf/wRzsSWTg8FWyNIOwNl9Jk2H/vUnXlnVT3ySQy7l85xDcYbyTu8+IeBaumdqGK81UthEa0yY+14IZUbMPTXahKZlxTlYZ3DepCj52SBX9QpXwKk8FRk3qjYzA5Kgx/Uvy9Od/mSWF0fcKE1IiD+dWa6F4XvQqsRcr46gmxqfiImJyin+w2O6zS+KVaGvThu35L/aRk8qMZlKZp1RTKrSRIjussNRiI7/e82RNMUYIcIYW2uigix7OcYFL9HGFa9xggCFunQa1KnBrrwpKldd5VeBU7WLHwa06K9z7um5Wx03xOQM3veXePfS/AQ==)
+  utterance ("[g:CommitTransfer] Transfer {[g:TransferAmount] ($)[v:viv.money.PrefixSymbol:$](10)[v:viv.money.CurrencyValue]} from my {[g:FromAccount] (checking)[v:AccountType:Checking]} account to my {[g:ToAccount] (savings)[v:AccountType:Savings]} account for (my college fund)[v:Note]")
+  plan (rZBLT8JAFIUPVoWqqEUeJrB31/+AJK6MMUrcD+WSTOg8MkwJ3fjbnVYKDDSuTJPpzfm+29MMehjRhgmdUjxjchlPDZOrBZkPSohri6FHJ0oIbisHvdrV4x1DzNIOPnrwxSgxThKVSYuuR6r0yOdyXk+26TTXhMgjb8oS+v6vqv8vHdZexliUa501X8dCScrjSWYMySTHYJ89Zzyd70D/VC4bBqf5F0szwmgPXpVaZtpbe/qLfmujNBnLaXXY+25owTefuZipFF00cIYA57jAJZpoIcQVrnGDNm5xh3tE6ODBefDMwD2/ZrA1C7cwG6UJ5xUnDqbqXeWhm1oubbqp6ItcS/H9EO0f)
+  last-modified (1569016610856)
 }
 train (t-bykpcuwfadi8vyf8ti737xpox) {
-  utterance ("[g:CreateTransfer] Transfer {[g:TransferAmount] ($)[v:viv.money.PrefixSymbol:$](1000)[v:viv.money.CurrencyValue]} from my {[g:FromAccount] (checking)[v:AccountType:Checking]} account to my {[g:ToAccount] (savings)[v:AccountType:Savings]} account")
-  plan (tZAxT8MwFIQvbSlQoEAlipA6spKBf1AqdWJAomJFruNKVhO/6MWuyL/HcUNEUmBjseX77nzPxgTTnd69JySLeC3MNl6xMMVGMWZtfcFKWNXQuzZdMmVzKckZi5s2+pK7CW2SX1Atr8pc4bYzHf1Ly+znP5hnITjxNM7IqDJeOGZlZBnmqrUnp9OkAdNDc/OQjv4mUrfvrsEz0dblrdjjX/RekiksC23sQ86UK7ZaFd9HeGG10R+vZbamFNeI0EMfAxxhiGOc4BQjnOEcFxjjElfegcYT1Z6o9lSuyhN5zyCsh/t+RUj1QkvVMPb39v15iNEn)
+  utterance ("[g:CommitTransfer] Transfer {[g:TransferAmount] ($)[v:viv.money.PrefixSymbol:$](1000)[v:viv.money.CurrencyValue]} from my {[g:FromAccount] (checking)[v:AccountType:Checking]} account to my {[g:ToAccount] (savings)[v:AccountType:Savings]} account")
+  plan (rY9LT8JAGEVvrQ9UVEQEE9i7639AElcujBL3Q/lIJnQeGaaEbvztzpQCDm1cuZkm95w7d4oeRrRhQmeUzJhcJlPD5GpB5oNS4tpiGNCJEoLbnYPHxupxxxCztIdPAXw1SozTVOXSoheQXXrkczlvJlU6LTShH75L/f/CsPHPx6Ksddd8nQglqUgmuTEk0wKDQ/aS82y+B/26XC4M6vkXy3LC6ADelFrmOqg9/0W/tVGajOW0+r37bmjBN5+FmKkMD4hwghinOMM5LtDCJa5wjTZucIs7dHCPrrMQeHHlxZXnTe9FpQdn+bP+3Z5w7chlfs0vddz9/uYW2j8=)
+  last-modified (1569016615070)
 }

@@ -1,4 +1,5 @@
 train (t-yco7ir76s9b1g4bwz9y10qtuf) {
-  utterance ([g:CreateTransfer] I need to transfer some money)
-  plan (Y2BlECvLLItPyU8u1ktKzMvWCylKzCtOSy1ikEEVdy5KTSxJhctKosq6FeXnOiYn55fmlTCIoxmYD5OQwW6TYy5YloWBkYGJgRlIMwBZEAgDYDYA)
+  utterance ([g:CommitTransfer] I need to transfer some money)
+  plan (Y2BmkEmtSMwtyEnVS0rMy9YLKUrMK05LLQpKTU7NLChhkEaRdc7Pzc0sgalhEMWqlYGJgRGIGYAkIwMDjAYA)
+  last-modified (1569016867739)
 }
