@@ -37,7 +37,3 @@ template-macro-def (NoMemoLabel) {
 template-macro-def (TransferAmount) {
   content: template("Transfer Amount")
 }
-
-template-macro-def (Next) {
-  content: template("Next")
-}
