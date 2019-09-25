@@ -43,7 +43,7 @@ confirmation-view {
                     value-set { AccountType {}}
                   }
                 }
-                goal { @conversational CommitTransfer }
+                goal { @context (Continuation) CommitTransfer }
               }
             }
           }
@@ -63,7 +63,7 @@ confirmation-view {
                     value-set { AccountType {}}
                   }
                 }
-                goal { @conversational CommitTransfer }
+                goal { @context (Continuation) CommitTransfer }
               } 
             }
           }
@@ -77,7 +77,7 @@ confirmation-view {
             on-click {
               intent {
                 value-set { @prompt-behavior(AlwaysElicitation) TransferAmount {$expr(this.transferAmount)} }
-                goal { @conversational CommitTransfer }
+                goal { @context (Continuation) CommitTransfer }
               }
             }
           }
@@ -95,7 +95,7 @@ confirmation-view {
             on-click {
               intent {
                 value-set { @prompt-behavior(AlwaysElicitation) Note  {$expr(this.note)} }
-                goal { @conversational CommitTransfer }
+                goal { @context (Continuation) CommitTransfer }
               }
             }
           }
