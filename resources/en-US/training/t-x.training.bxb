@@ -1,4 +1,5 @@
 train (t-xeymqgmkh2wosgmcwj3ai5sf1) {
-  utterance ("[g:CreateTransfer] I need to transfer money from my {[g:FromAccount] (savings)[v:AccountType:Savings]} account")
-  plan (Y+BgECvLLItPyU8u1ktKzMvWCylKzCtOSy1ikEEVdy5KTSxJhctKosq6FeXnOiYn55fmlTCIokrBhNF1ZOal4JCCCodUFqQyiKO5Lh+mRwa7sx1zwbLsDIwMTAzMDCwMrAxsQB4DnM8IhgxgFgwwg2VZQSQA)
+  utterance ("[g:CommitTransfer] I need to transfer money from my {[g:FromAccount] (savings)[v:AccountType:Savings]} account")
+  plan (bY5bCsIwEEVvbX1+qwh1Dd1DEVyAdAMxjhA0D2IE3b3TaoSUzMB8nDMXLlbY00tod6fmLMyt6bwwjyv5E0lSLqBO7MFqrUL8wSYbHWc8iUB/uUvk0VvdSmmfJmCdmEhH/8pc8uZHu7cjbNNeNibqbN9WD3KJAhOUqDDFDHMsmCBhJW8xMDDp73d6WnGC7wc=)
+  last-modified (1569016863039)
 }

@@ -1,4 +1,5 @@
 train (t-480kz7kinjk0x3tmsi5efgvxm) {
-  utterance ("[g:CreateTransfer] Transfer money to my {[g:ToAccount] (savings)[v:AccountType:Savings]} account from my {[g:FromAccount] (checking)[v:AccountType:Checking]} account for (my college fund)[v:Note]")
-  plan (Y+BhECvLLItPyU8u1ktKzMvWCylKzCtOSy1ikEEVdy5KTSxJhctKosq6FeXnOiYn55fmlTCIokrBhNF1ZOal4JCCCodUFqQyCKFK+eWXpDKIo7k4nyY2y2APF8dcsEZuBkYGJgZmBhYGVgY2BnYGDgZOBi6gKANcnBEIIeIgFgNYBAIQLDYgiw2onhWokgtIMzGwAwA=)
+  utterance ("[g:CommitTransfer] Transfer money to my {[g:ToAccount] (savings)[v:AccountType:Savings]} account from my {[g:FromAccount] (checking)[v:AccountType:Checking]} account for (my college fund)[v:Note]")
+  plan (rZBdCsIwEIRHW/ujVRBUhHqG3qEIPvogvUBsVyiapMQIentDtcKWPkrYsDvfDBuCBXb0FLK5UXYW6poVRqj7hcyJSqobi5TRvZaytp0H68FoP2NIWPrBLYMHo2VelvqhLFaMdGrPX6tqmHzV4tUQlowctSVs+FP1/5emg5+RyzY2xwhjePAxQYAQEWJMMUPiCBjz3Pkwz+loy29vsC5wXeTm0LkTl/cRvwE=)
+  last-modified (1569016533957)
 }

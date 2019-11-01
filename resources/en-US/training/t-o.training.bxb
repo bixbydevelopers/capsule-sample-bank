@@ -1,4 +1,5 @@
 train (t-ov2maw42u6i68e4yjg5wy2vud) {
-  utterance ([g:Transfer] I need to transfer money to my bank account)
-  plan (Y2BkECvLLItPyU8u1ktKzMvWCylKzCtOSy1iAAFGEAEA)
+  utterance ([g:CommitTransfer] I need to transfer money to my bank account)
+  plan (Y2BmkEmtSMwtyEnVS0rMy9YLKUrMK05LLQpKTU7NLChhkEaRdc7Pzc0sgalhEMWqlYGJgRGIGYAkIwMDjAYA)
+  last-modified (1569016840504)
 }

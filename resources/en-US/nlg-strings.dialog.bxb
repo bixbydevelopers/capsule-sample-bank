@@ -38,10 +38,6 @@ template-macro-def (AccountPlural) {
   content: template("accounts")
 }
 
-template-macro-def (ClickWhenReady){
-  content: template("Click next when ready to confirm transfer details.")
-}
-
 template-macro-def (TransferCompleted) {
   content: template("Transfer completed.")
 }

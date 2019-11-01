@@ -1,4 +1,0 @@
-dialog (Confirmation) {
-  match: CreateTransfer
-  template-macro(ClickWhenReady)
-}

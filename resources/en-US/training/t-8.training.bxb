@@ -1,8 +1,10 @@
 train (t-8ldjify8vzr9ae4zwjboy21pz) {
-  utterance ("[g:CreateTransfer] Transfer {[g:TransferAmount] ($)[v:viv.money.PrefixSymbol:$](10)[v:viv.money.CurrencyValue]} to my {[g:ToAccount] (savings)[v:AccountType:Savings]} account from my {[g:FromAccount] (checking)[v:AccountType:Checking]} account for (my college fund)[v:Note]")
-  plan (tVBbS8MwGD11N3Xq5sQNYY++2gf/wRzsSWTg8FWyNIOwNl9Jk2H/vUnXlnVT3ySQy7l85xDcYbyTu8+IeBaumdqGK81UthEa0yY+14IZUbMPTXahKZlxTlYZ3DepCj52SBX9QpXwKk8FRk3qjYzA5Kgx/Uvy9Od/mSWF0fcKE1IiD+dWa6F4XvQqsRcr46gmxqfiImJyin+w2O6zS+KVaGvThu35L/aRk8qMZlKZp1RTKrSRIjussNRiI7/e82RNMUYIcIYW2uigix7OcYFL9HGFa9xggCFunQa1KnBrrwpKldd5VeBU7WLHwa06K9z7um5Wx03xOQM3veXePfS/AQ==)
+  utterance ("[g:CommitTransfer] Transfer {[g:TransferAmount] ($)[v:viv.money.PrefixSymbol:$](10)[v:viv.money.CurrencyValue]} to my {[g:ToAccount] (savings)[v:AccountType:Savings]} account from my {[g:FromAccount] (checking)[v:AccountType:Checking]} account for (my college fund)[v:Note]")
+  plan (rZBLT8JAFIUPVoWqqEUeJrB31/+AJK6MMUrcD+WSTOg8MkwJ3fjbnVYKDDSuTJPpzfm+29MMehjRhgmdUjxjchlPDZOrBZkPSohri6FHJ0oIbisHvdrV4x1DzNIOPnrwxSgxThKVSYuuR6r0yOdyXk+26TTXhMgjb8oS+v6vqv8vHdZexliUa501X8dCScrjSWYMySTHYJ89Zzyd70D/VC4bBqf5F0szwmgPXpVaZtpbe/qLfmujNBnLaXXY+25owTefuZipFF00cIYA57jAJZpoIcQVrnGDNm5xh3tE6ODBefDMwD2/ZrA1C7cwG6UJ5xUnDqbqXeWhm1oubbqp6ItcS/H9EO0f)
+  last-modified (1569016548254)
 }
 train (t-8pchpk5hlgto38z8746gckk1t) {
-  utterance ("[g:CreateTransfer] I need to transfer {[g:TransferAmount] ($)[v:viv.money.PrefixSymbol:$](5)[v:viv.money.CurrencyValue]} to my {[g:ToAccount] (checking)[v:AccountType:Checking]} account from my {[g:FromAccount] (savings)[v:AccountType:Savings]} account for (school)[v:Note]")
-  plan (tVBbS8MwGD11N3Xq5sQNYY++2gf/wRzsSWTg8FWyNIOwNl9Jk2H/vUnXlnVT3ySQy7l85xDcYbyTu8+IeBaumdqGK81UthEa0yY+14IZUbMPTXahKZlxTlYZ3DepCj52SBX9QpXwKk8FRk3qjYzA5Kgx/Uvy9Od/mSWF0fcKE1IiD+dWa6F4XvQqsRcr46gmxqfiImJyin+w2O6zS+KVaGvThu35L/aRk8qMZlKZp1RTKrSRIjussNRiI7/e82RNMUYIcIYW2uigix7OcYFL9HGFa9xggCFunQa1KnBrrwpKldd5VeBU7WLHwa06K9z7um5Wx03xOQM3veXePfS/AQ==)
+  utterance ("[g:CommitTransfer] I need to transfer {[g:TransferAmount] ($)[v:viv.money.PrefixSymbol:$](5)[v:viv.money.CurrencyValue]} to my {[g:ToAccount] (checking)[v:AccountType:Checking]} account from my {[g:FromAccount] (savings)[v:AccountType:Savings]} account for (school)[v:Note]")
+  plan (rZBLT8JAFIUPVoWqqEUeJrB31/+AJK6MMUrcD+WSTOg8MkwJ3fjbnVYKDDSuTJPpzfm+29MMehjRhgmdUjxjchlPDZOrBZkPSohri6FHJ0oIbisHvdrV4x1DzNIOPnrwxSgxThKVSYuuR6r0yOdyXk+26TTXhMgjb8oS+v6vqv8vHdZexliUa501X8dCScrjSWYMySTHYJ89Zzyd70D/VC4bBqf5F0szwmgPXpVaZtpbe/qLfmujNBnLaXXY+25owTefuZipFF00cIYA57jAJZpoIcQVrnGDNm5xh3tE6ODBefDMwD2/ZrA1C7cwG6UJ5xUnDqbqXeWhm1oubbqp6ItcS/H9EO0f)
+  last-modified (1569016554208)
 }

@@ -1,4 +1,10 @@
+train (t-a5w8j5mu983h5wwccdj1up17w) {
+  utterance ("[g:CommitTransfer] make a transfer from {[g:FromAccount] (savings)[v:AccountType:Savings]} to {[g:ToAccount] (checking)[v:AccountType:Checking]}")
+  plan (rY9dCsIwEISnpmq1+qYi1DP0DkXwANILxLpC0PwQI+jtjaFVUvrow2bZ+WY2CZbY0ZNLc6PyxNW1rC1X9wvZIzUkjEMR0b2WUrjOg/VgtJ+xxB194TaCB6tl1TT6oRxWEenUnl+o8zBp1fplCJv4Xfr/NxSDP69kiC2QYASGFGNMMEWGGebIvY6IsJYwryJUGs5fh/clfvrsyH0yRfYG)
+  last-modified (1569359497860)
+}
 train (t-a7zkzsk2y62q8jkac7avfl08n) {
-  utterance ("[g:CreateTransfer:continue] Change the amount to {[g:TransferAmount] ($)[v:viv.money.PrefixSymbol:$](25)[v:viv.money.CurrencyValue]}")
-  plan (fY6xbsIwFEUvbWhp6cQAqsTI2gz9A4rUqQMSiBU55kWykvhFLzYif98kBJS0CHuxz/G9z3jD9GiO+wPrIoyUTcKtKFvEJJj3+UpIObra9779Fs6WWrO3DrM/hXwR89uTllljJ5UNM7ZUhisvQlaXTVXLvrxJD1cx/f94W+bUDVz4TqWemtmt+GFOfN6Lfd6zC822cKKMdR+5cE7iDBXdL6yFYnPalFnEKcYY4AGPCDDEE54xwgteK4qK1/vMa1PzAc4raE/de1Bl67bgFw==)
+  utterance ("[g:CommitTransfer:continue] Change the amount to {[g:TransferAmount] ($)[v:viv.money.PrefixSymbol:$](25)[v:viv.money.CurrencyValue]}")
+  plan (fc09b8IwEAbgFwqhH8BQCVoJ9m75DxSJiaEqqLtJD8ki9lmHjcjCb4cAgaSg2ot9z7136GJIW2VcSvFC2VU8F2XXS5JvSkg7j0FFx2yM9kUPenejfzNCytMF3ys4ETajJOFgPfrVaVzUB3e3jMwRXzd6Exu2lMXjIEI2yfB2rX0Gnf5eoH/bPM8clQNF/UelgTC8wpR5FVwl9vGf7pywI/Ga1uW9X0JLvZ1lZsEpOqihjgc00ESEFh7xhGe8oH0QnC2/J8s1t9rRTqdxfpX/0WFGPjnaAw==)
+  last-modified (1569016598559)
 }

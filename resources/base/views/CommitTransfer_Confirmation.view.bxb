@@ -1,20 +1,27 @@
 confirmation-view {
-  match: common.Confirmation {
-    confirming: CreateTransfer (this)
-  }
-  message {
-    template ("Click next when ready to confirm transfer details.")
-  }
-  // Confirming with a `value: Confirmation(true)` doesn't work without this block. DO NOT remove confirm-options.
-  confirm-options {
-    on-confirm {
-      if (false) {
-        halt {
-          dialog ("")
-        }
-      }
-    }
-  }
+	match {
+		common.Confirmation {
+			confirming {
+				CommitTransfer (action) {
+					from-input {
+						Transfer (this) {
+              min (Required)
+            }
+					}
+				}
+			}
+		}
+	}
+
+	message {
+		template-macro (ConfirmDetails)
+	}
+
+	confirm-options {
+		label ("Confirm transfer")
+	}
+
+	mode (Transactional)
 
   render {
     layout {
@@ -36,11 +43,10 @@ confirmation-view {
                     value-set { AccountType {}}
                   }
                 }
-                goal { @conversational CreateTransfer }
+                goal { @context (Continuation) CommitTransfer }
               }
             }
           }
-
           input-cell {
             label {
               template-macro (SendToLabel)
@@ -57,7 +63,7 @@ confirmation-view {
                     value-set { AccountType {}}
                   }
                 }
-                goal { @conversational CreateTransfer }
+                goal { @context (Continuation) CommitTransfer }
               } 
             }
           }
@@ -71,11 +77,10 @@ confirmation-view {
             on-click {
               intent {
                 value-set { @prompt-behavior(AlwaysElicitation) TransferAmount {$expr(this.transferAmount)} }
-                goal { @conversational CreateTransfer }
+                goal { @context (Continuation) CommitTransfer }
               }
             }
           }
-
           input-cell {
             label {
               template-macro (MemoLabel)
@@ -90,7 +95,7 @@ confirmation-view {
             on-click {
               intent {
                 value-set { @prompt-behavior(AlwaysElicitation) Note  {$expr(this.note)} }
-                goal { @conversational CreateTransfer }
+                goal { @context (Continuation) CommitTransfer }
               }
             }
           }
