@@ -2,7 +2,7 @@ action (CommitTransfer) {
   type (Commit)
 
   confirm {
-    by (common.Confirmation)
+    by (core.Confirmation)
   }
 
   collect {

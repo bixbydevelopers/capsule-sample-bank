@@ -1,6 +1,6 @@
 confirmation-view {
 	match {
-		common.Confirmation {
+		core.Confirmation {
 			confirming {
 				CommitTransfer (action) {
 					from-input {
