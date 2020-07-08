@@ -12,11 +12,11 @@ capsule {
     }
     import (viv.money) { 
       as (money) 
-      version (2.22.26)
+      version (2.22.43)
     }
     import (viv.time) { 
       as (time) 
-      version-from (money)
+      version (3.1.188)
     }
   }
   store-countries {
