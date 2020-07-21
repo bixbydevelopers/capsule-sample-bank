@@ -3,11 +3,11 @@
 authorization {
   user {
     oauth2-authorization-code ("Mock Bank") {
-      authorize-endpoint ("https://bank-oauth.appspot.com/dialog/authorize")
+      authorize-endpoint ("https://bank.bixby.pro/dialog/authorize")
       client-id ("xyz123")
-      client-secret-key ("ssh-password")
+      client-secret-key ("key")
       scope ("transfer_money")
-      token-endpoint ("https://bank-oauth.appspot.com/oauth/token")
+      token-endpoint ("https://bank.bixby.pro/oauth/token")
     }
   }
 }
