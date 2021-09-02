@@ -1,3 +1,4 @@
+##This application is bullshit and its bank website is not working properly.I have lose 1 1\2 hours of mine...fuck this off
 <p align="Center">
   <img src="https://bixbydevelopers.com/dev/docs-assets/resources/dev-guide/bixby_logo_github-11221940070278028369.png">
   <br/>
@@ -35,3 +36,4 @@ This capsule is the the companion code to the Bixby [Simple One-Step Transaction
 ### Need Support?
 * Have a feature request? Please suggest it in our [Support Community](https://support.bixbydevelopers.com/hc/en-us/community/topics/360000183273-Feature-Requests) to help us prioritize.
 * Have a technical question? Ask on [Stack Overflow](https://stackoverflow.com/questions/tagged/bixby) with tag “bixby”
+
