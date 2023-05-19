@@ -1,5 +1,5 @@
 input-view {
-  match : ToAccount(this)
+  match: ToAccount (this)
   message {
     template-macro (WhichTo)
   }

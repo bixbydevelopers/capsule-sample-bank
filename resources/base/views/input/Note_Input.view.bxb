@@ -1,16 +1,14 @@
 input-view {
-  match : Note(this)
+  match: Note (this)
   message {
     template-macro (WhatMemo)
   }
-  
   render {
     form {
       on-submit {
         goal: Note
         value {
-          viv.core.FormElement(note) 
-          // This lets us submit the value from the
+          viv.core.FormElement (note) // This lets us submit the value from the
           // element with the id note, which is defined below.
         }
       }

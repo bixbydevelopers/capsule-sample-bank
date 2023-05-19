@@ -1,27 +1,27 @@
 confirmation-view {
-	match {
-		core.Confirmation {
-			confirming {
-				CommitTransfer (action) {
-					from-input {
-						Transfer (this) {
+  match {
+    core.Confirmation {
+      confirming {
+        CommitTransfer (action) {
+          from-input {
+            Transfer (this) {
               min (Required)
             }
-					}
-				}
-			}
-		}
-	}
+          }
+        }
+      }
+    }
+  }
 
-	message {
-		template-macro (ConfirmDetails)
-	}
+  message {
+    template-macro (ConfirmDetails)
+  }
 
-	confirm-options {
-		label ("Confirm transfer")
-	}
+  confirm-options {
+    label ("Confirm transfer")
+  }
 
-	mode (Transactional)
+  mode (Transactional)
 
   render {
     layout {
@@ -37,13 +37,21 @@ confirmation-view {
             on-click {
               intent {
                 subplan {
-                  goal {FromAccount } 
+                  goal {
+                    FromAccount
+                  }
                   subplan {
                     goal: FindAccount
-                    value-set { AccountType {}}
+                    value-set {
+                      AccountType {
+                      }
+                    }
                   }
                 }
-                goal { @context (Continuation) CommitTransfer }
+                goal {
+                  @context (Continuation)
+                  CommitTransfer
+                }
               }
             }
           }
@@ -57,14 +65,22 @@ confirmation-view {
             on-click {
               intent {
                 subplan {
-                  goal { ToAccount } 
+                  goal {
+                    ToAccount
+                  }
                   subplan {
                     goal: FindAccount
-                    value-set { AccountType {}}
+                    value-set {
+                      AccountType {
+                      }
+                    }
                   }
                 }
-                goal { @context (Continuation) CommitTransfer }
-              } 
+                goal {
+                  @context (Continuation)
+                  CommitTransfer
+                }
+              }
             }
           }
           input-cell {
@@ -76,8 +92,16 @@ confirmation-view {
             }
             on-click {
               intent {
-                value-set { @prompt-behavior(AlwaysElicitation) TransferAmount {$expr(this.transferAmount)} }
-                goal { @context (Continuation) CommitTransfer }
+                value-set {
+                  @prompt-behavior (AlwaysElicitation)
+                  TransferAmount {
+                    $expr (this.transferAmount)
+                  }
+                }
+                goal {
+                  @context (Continuation)
+                  CommitTransfer
+                }
               }
             }
           }
@@ -87,15 +111,24 @@ confirmation-view {
             }
             value {
               if (exists(this.note)) {
-                template ("[#{value(this.note)}]") 
-              } else {
+                template ("[#{value(this.note)}]")
+              }
+              else {
                 template-macro (NoMemoLabel)
               }
             }
             on-click {
               intent {
-                value-set { @prompt-behavior(AlwaysElicitation) Note  {$expr(this.note)} }
-                goal { @context (Continuation) CommitTransfer }
+                value-set {
+                  @prompt-behavior (AlwaysElicitation)
+                  Note {
+                    $expr (this.note)
+                  }
+                }
+                goal {
+                  @context (Continuation)
+                  CommitTransfer
+                }
               }
             }
           }

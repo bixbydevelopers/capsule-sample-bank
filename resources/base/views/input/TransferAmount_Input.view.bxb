@@ -1,28 +1,26 @@
 input-view {
-  match : TransferAmount(this)
+  match: TransferAmount (this)
   message {
     template-macro (HowMuch)
   }
-  
   render {
     form {
       on-submit {
         goal: TransferAmount
         value {
-          viv.core.FormElement(transferAmount) 
-          // This lets us submit the value from the
+          viv.core.FormElement (transferAmount) // This lets us submit the value from the
           // element with the id transferAmount, which is defined below.
         }
       }
       elements {
         number-input {
-          id(transferAmount)
+          id (transferAmount)
           type (viv.money.CurrencyValue)
           label {
             template-macro (TransferAmount)
           }
-          prefix ($) 
-          allow-negative (false)         
+          prefix ($)
+          allow-negative (false)
           decimal-limit (2)
           value ("#{value(this.value)}")
         }

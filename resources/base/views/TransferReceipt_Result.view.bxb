@@ -7,7 +7,7 @@ result-view {
           expression (transferReceipt.transfer)
         }
       }
-       layout-macro (transfer-to) {
+      layout-macro (transfer-to) {
         param (transfer) {
           expression (transferReceipt.transfer)
         }

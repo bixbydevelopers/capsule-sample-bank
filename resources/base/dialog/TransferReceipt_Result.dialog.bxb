@@ -2,5 +2,5 @@ dialog (Result) {
   match {
     TransferReceipt
   }
-  template-macro(TransferCompleted)
+  template-macro (TransferCompleted)
 }

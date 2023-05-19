@@ -1,23 +1,21 @@
 structure (Transfer) {
-  description(A transfer.)
-  
+  description (A transfer.)
   property (toAccount) {
     type (ToAccount)
-    min(Required)
+    min (Required)
   }
-  
   property (fromAccount) {
     type (FromAccount)
-    min(Required)
+    min (Required)
   }
-  
   property (transferAmount) {
-    min(Required)
-    type(TransferAmount)
+    min (Required)
+    type (TransferAmount)
   }
-  
   property (note) {
-    type(Note)
+    type (Note)
   }
-  features { transaction }
+  features {
+    transaction
+  }
 }

@@ -3,9 +3,8 @@ structure (TransferReceipt) {
     type (Transfer)
     min (Required)
   }
-  
-  property(transferTime) {
-    type(time.DateTime)
+  property (transferTime) {
+    type (time.DateTime)
     min (Required)
   }
 }

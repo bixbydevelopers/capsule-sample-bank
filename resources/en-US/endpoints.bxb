@@ -7,7 +7,6 @@ endpoints {
         user
       }
     }
-    
     action-endpoint (CreateTransfer) {
       accepted-inputs (fromAccount, toAccount, transferAmount, note)
       local-endpoint ("CreateTransfer.js")

@@ -2,7 +2,8 @@ layout-macro-def (transfer-from) {
   params {
     param (transfer) {
       type (Transfer)
-      min (Required) max (One)
+      min (Required)
+      max (One)
     }
   }
   content {

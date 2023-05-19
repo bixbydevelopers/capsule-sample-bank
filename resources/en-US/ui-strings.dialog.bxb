@@ -7,33 +7,33 @@ template-macro-def (SendToLabel) {
 }
 
 template-macro-def (AmountLabel) {
-  content: template("Amount")
+  content: template ("Amount")
 }
 
 template-macro-def (MemoLabel) {
-  content: template("Memo")
+  content: template ("Memo")
 }
 
 template-macro-def (AccountLabel) {
-  content: template("Account")
+  content: template ("Account")
 }
 
 template-macro-def (TransferTimeLabel) {
-  content: template("Transfer time")
+  content: template ("Transfer time")
 }
 
 template-macro-def (FromLabel) {
-  content: template("From")
+  content: template ("From")
 }
 
 template-macro-def (ToLabel) {
-  content: template("To")
+  content: template ("To")
 }
 
 template-macro-def (NoMemoLabel) {
-  content: template("No memo")
+  content: template ("No memo")
 }
 
 template-macro-def (TransferAmount) {
-  content: template("Transfer Amount")
+  content: template ("Transfer Amount")
 }

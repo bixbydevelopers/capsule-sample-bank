@@ -1,5 +1,5 @@
 input-view {
-  match : FromAccount(this)
+  match: FromAccount (this)
   message {
     template-macro (WhichFrom)
   }
@@ -7,7 +7,6 @@ input-view {
     selection-of (this) {
       where-each (account) {
         //Uses the default layout for each 'account' in 'this'
-        
       }
     }
   }

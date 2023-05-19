@@ -1,17 +1,17 @@
 dialog (Value) {
-  match: AccountType(this)
-  switch(this) {
-    case(Checking) {
-      template-macro(Checking)
+  match: AccountType (this)
+  switch (this) {
+    case (Checking) {
+      template-macro (Checking)
     }
-    case(Savings) {
-      template-macro(Savings)
+    case (Savings) {
+      template-macro (Savings)
     }
-    case(MoneyMarket) {
-      template-macro(MoneyMarket)
+    case (MoneyMarket) {
+      template-macro (MoneyMarket)
     }
     default {
-      template-macro(UnknownAccountType)
+      template-macro (UnknownAccountType)
     }
   }
 }

@@ -8,7 +8,9 @@ action (CreateTransfer) {
       default-init {
         // Use default-init to prompt for an account the user has.
         intent {
-          goal { FindAccount }
+          goal {
+            FindAccount
+          }
         }
       }
     }
@@ -18,16 +20,16 @@ action (CreateTransfer) {
       min (Required)
       default-init {
         intent {
-          goal { FindAccount }
+          goal {
+            FindAccount
+          }
         }
       }
     }
-    
     input (transferAmount) {
       type (TransferAmount)
       min (Required)
     }
-    
     input (note) {
       type (Note)
       min (Optional)

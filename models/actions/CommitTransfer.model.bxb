@@ -11,6 +11,5 @@ action (CommitTransfer) {
       min (Required)
     }
   }
-  
   output (TransferReceipt)
 }

@@ -1,4 +1,4 @@
 dialog (Value) {
   match: Account (this)
-  template("#{value (this.accountType)} #{concept (this)}")
+  template ("#{value (this.accountType)} #{concept (this)}")
 }

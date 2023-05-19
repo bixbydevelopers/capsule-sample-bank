@@ -1,12 +1,14 @@
 <p align="Center">
   <img src="https://bixbydevelopers.com/dev/docs-assets/resources/dev-guide/bixby_logo_github-11221940070278028369.png">
   <br/>
-  <h1 align="Center">Bixby One-Step Transactions Sample</h1>
+  <h1 align="Center">Bixby One-Step Transactions and OAuth Sample</h1>
 </p>
 
 ## Overview
 
-This capsule is the the companion code to the Bixby [Simple One-Step Transactional Capsule](https://bixbydevelopers.com/dev/docs/sample-capsules/walkthroughs/simple-transactional) guide. This capsule allows one to do simple banking transactions e.g. transfer money. This advanced capsule demonstrates use of simple one-step [transactions](https://bixbydevelopers.com/dev/docs/dev-guide/developers/modeling.modeling-actions.transactional-workflows) and [OAuth](https://bixbydevelopers.com/dev/docs/dev-guide/developers/actions.using-oauth).
+This capsule enables users to perform basic banking transactions, such as money transfers. The capsule showcases the implementation of simple one-step transactions and OAuth authentication.
+
+To utilize this capsule, you must set up a server-side component to serve as the OAuth provider. Refer to the [viv-bank-server](/viv-bank-server/) directory for this purpose and follow the instructions provided in the [README](/viv-bank-server/README.md). Please note that you will need to modify the capsule's code and configuration to align with the settings configured in the server-side component.
 
 ---
 
@@ -14,7 +16,7 @@ This capsule is the the companion code to the Bixby [Simple One-Step Transaction
 
 ### Your Source for Everything Bixby
 * [Bixby Developer Center](http://bixbydevelopers.com) - Everything you need to get started with Bixby Development!
-* [Bixby News, Blogs and Tutorials](https://bixby.developer.samsung.com/) - Bixby News, Tutorials, Blogs and Events
+* [Bixby Tutorials](https://bixbydevelopers.com/dev/docs/sample-capsules/videos/bixby-tutorials) - Video explanations for Bixby development
 
 ### Guides & Best Practices
 * [Quick Start Guide](https://bixbydevelopers.com/dev/docs/get-started/quick-start) - Build your first capsule
@@ -25,7 +27,7 @@ This capsule is the the companion code to the Bixby [Simple One-Step Transaction
 * [Bixby Developers YouTube Channel](https://www.youtube.com/c/bixbydevelopers) - Tutorial videos, Presentations, Capsule Demos and more
 
 ### Bixby Podcast
-* [Bixby Developers Chat](http://bixbydev.buzzsprout.com/) - Voice, Conversational AI and Bixby discussions 
+* *[Bixby Developers Chat](https://open.spotify.com/show/3abrdQbOgpQBIbleWjTvci) - Voice, Conversational AI and Bixby discussions 
 
 ### Bixby on Social Media
 * [@BixbyDevelopers](https://twitter.com/bixbydevelopers) - Twitter

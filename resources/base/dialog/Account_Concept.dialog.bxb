@@ -1,13 +1,13 @@
 dialog (Concept) {
   match {
-    Account(this)
+    Account (this)
   }
-  switch(plural(this)) {
+  switch (plural(this)) {
     case (One) {
-      template-macro(AccountSingular)
+      template-macro (AccountSingular)
     }
     default {
-      template-macro(AccountPlural)
+      template-macro (AccountPlural)
     }
   }
 }

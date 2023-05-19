@@ -1,13 +1,11 @@
-// See below link for instructions on configuring secrets befor running this capsule
-// https://bixbydevelopers.com/dev/docs/sample-capsules/walkthroughs/simple-transactional#configuring-this-capsule
 authorization {
   user {
     oauth2-authorization-code ("Mock Bank") {
-      authorize-endpoint ("https://bank.bixby.pro/dialog/authorize")
+      authorize-endpoint ("https://dull-files-create.loca.lt/dialog/authorize")
       client-id ("xyz123")
-      client-secret-key ("ssh-password")
+      client-secret-key (ssh-password)
       scope ("transfer_money")
-      token-endpoint ("https://bank.bixby.pro/oauth/token")
+      token-endpoint ("https://dull-files-create.loca.lt/oauth/token")
     }
   }
 }

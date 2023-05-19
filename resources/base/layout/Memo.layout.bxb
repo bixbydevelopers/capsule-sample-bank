@@ -2,7 +2,8 @@ layout-macro-def (memo) {
   params {
     param (transfer) {
       type (Transfer)
-      min (Required) max (One)
+      min (Required)
+      max (One)
     }
   }
   content {
@@ -16,7 +17,8 @@ layout-macro-def (memo) {
             text {
               value ("[#{value(transfer.note)}]")
             }
-          } else {
+          }
+          else {
             text {
               value {
                 template-macro (NoMemoLabel)

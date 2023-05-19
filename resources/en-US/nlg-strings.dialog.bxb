@@ -1,47 +1,47 @@
 template-macro-def (HowMuch) {
-  content : template ("How much do you want to transfer?")
+  content: template ("How much do you want to transfer?")
 }
 
 template-macro-def (WhatMemo) {
-  content : template ("What is the memo?")
+  content: template ("What is the memo?")
 }
 
 template-macro-def (WhichFrom) {
-  content : template ("Which account do you want to transfer from?")
+  content: template ("Which account do you want to transfer from?")
 }
 
 template-macro-def (WhichTo) {
-  content : template ("Which account do you want to transfer to?")
+  content: template ("Which account do you want to transfer to?")
 }
 
 template-macro-def (Checking) {
-  content: template("Checking")
+  content: template ("Checking")
 }
 
 template-macro-def (Savings) {
-  content: template("Savings")
+  content: template ("Savings")
 }
 
 template-macro-def (MoneyMarket) {
-  content: template("Money Market")
+  content: template ("Money Market")
 }
 
 template-macro-def (UnknownAccountType) {
-  content: template("Unknown")
+  content: template ("Unknown")
 }
 
 template-macro-def (AccountSingular) {
-  content: template("account")
+  content: template ("account")
 }
 
 template-macro-def (AccountPlural) {
-  content: template("accounts")
+  content: template ("accounts")
 }
 
 template-macro-def (TransferCompleted) {
-  content: template("Transfer completed.")
+  content: template ("Transfer completed.")
 }
 
 template-macro-def (ConfirmDetails) {
-  content: template("Confirm transfer details.")
+  content: template ("Confirm transfer details.")
 }
