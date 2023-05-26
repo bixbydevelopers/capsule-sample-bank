@@ -1,7 +1,7 @@
-oauth2orize: oauth2 provider example, borrowed from gerges-beshay/oauth2orize-examples
+oauth2orize: oauth2 provider example, borrowed from https://github.com/mohd7469/oauth2orize-examples
 it is lightly modified by @aren to support returning bank info.
 
-Install and Usage
+Installation and Usage
 ===
 
 Run the following commands from inside the `viv-bank-folder` folder.
@@ -44,7 +44,17 @@ Next, modify the `bank/resources/base/capsule.properties` file by changing the `
 config.default.endpoint=https://famous-hounds-cry.loca.lt
 ```
 
-Add the client secret in tjhe [developer console](https://bixbydevelopers.com/dev/console) under the "Configuration & Secrets" section of your capsule's Settings pane. The secret key can be anything but the value must be "ssh-password" without the quotation marks. The `client-secret-key` in the `authorization.bxb` file requires the key you defined in the developer console.
+To use this capsule, you will need to setup a client secret. The first step is create a new [team](https://bixbydevelopers.com/dev/docs/dev-guide/developers/managing-caps.developer-console#create-a-team).
+When you create a team, you will create a new namespace. You need to then go into `capsule.bxb` and change the capsule id to reflect the new namespace. For example, if your new namespace is `mynamespace`:
+
+```
+Make the following change in capsule.bxb
+id (example.bank) --> id (mynamespace.bank)
+```
+
+You then need to [register](https://bixbydevelopers.com/dev/docs/dev-guide/developers/managing-caps.developer-console#register-a-capsule) the new capsule id
+
+Once you have registered the capsule, you can dd the client secret in tjhe [developer console](https://bixbydevelopers.com/dev/console) under the "Configuration & Secrets" section of your capsule's Settings pane. The secret key can be anything but the value must be "ssh-password" without the quotation marks. The `client-secret-key` in the `authorization.bxb` file requires the key you defined in the developer console.
 
 Update the URLs in the capsule's `authorization.bxb` file to use the localtunnel endpoint domain
 
@@ -77,6 +87,9 @@ Make sure your node server is started.
 
 Changes
 ===
+5/28/23
+@rogerkibbe - Updated with more explicit Bixby instructions
+
 5/16/2023
 @ameya.b - Updated to reflect change in client-secret value behavior
 
